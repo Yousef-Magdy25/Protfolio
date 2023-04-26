@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio</title>
+    <!--main styling file-->
+    <link rel="stylesheet" href="./CSS/main style.css">
+    <!--responsive styling sheet-->
+    <link rel="stylesheet" href="./CSS/responsive.css">
+    <!--animation styling sheet-->
+    <link rel="stylesheet" href="./CSS/animation.css">
+    <!--normalize styling sheet-->
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <!--font awesome library-->
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--sending email-->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("ASDMO60o7SEm5GLBO");
+    })();
+    </script>
+</head>
+<body>
+    <!--start header-->
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="">Protfolio</a></h1>
+            </div>
+            <div class="menu">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-x"></i>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#protfolio">protfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--end header-->
+    <!--start home-->
+    <div class="home" id="home">
+        <div class="container">
+            <div class="info">
+                <h2>Hello,It's me</h2>
+                <h1>Yousef Magdy</h1>
+                <h2>And I'm a <span>Frontend Developer.</span></h2>
+                <p>I'm a frontend develper with a strong passion for building <br> professional web sites with great user experience.</p>
+                <div class="links">
+                    <a href="https://www.linkedin.com/in/yousef-magdy-054839201/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="./images/CV.pdf" download="CV"><div class="download"><p>Download CV</p></div></a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="./images/home.png" alt="">
+            </div>
+        </div> 
+    </div>
+    <!--end home-->
+    <!--start about-->
+    <div class="about" id="about">
+        <div class="container">
+            <h1>About <span>ME</span></h1>
+            <p>
+                I am a frontend web developer and communication engineer with skills in HTML, JavaScript and CSS. I create responsive and user-friendly websites for various clients and projects. One of them was an online market for different vendors and products. I am always learning new skills and technologies to improve my web development abilities. In this portfolio, you can see some of my previous work, the feedback from my clients, the technologies and tools I used, and the challenges I solved. I hope you like my portfolio and my style and skills. Please contact me anytime if you have any questions or comments. I would love to hear from you and work with you on your next web development project.
+            </p>
+        </div>
+    </div>
+    <!--end about-->
+    <!--start services-->
+        <div class="services" id="services">
+            <div class="container">
+                <h1><span>Our</span> Services</h1>
+                <div class="elements">
+                    <div class="element">
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>Using Html , Css and Javascript <br> I will help you building your website with the best user experience .</p>
+                        <div class="button"><h4>Read More</h4></div>
+                    </div>
+                    <div class="more">
+                        <i class="fa-regular fa-x"></i>
+                        <p>After designing your website and choosing the main colors comes the next step wich is building the website at the beginning I use HTML to create the main cintent of the website then I use CSS to get the style and the colors of the website at this point your website is visually done but it doesnt have any user experience so Using Javascript your website will be done and ready for user experience .</p>
+                    </div>
+                    <div class="element" >
+                        <i class="fa-solid fa-paintbrush"></i>
+                        <h2>Web Design</h2>
+                        <p>I will design you your website matching your brand and reflecting your identity .</p>
+                        <div class="button"><h4>Read More</h4></div>
+                    </div>
+                    <div class="more">
+                        <i class="fa-regular fa-x"></i>
+                        <p>The first step is to talk to you about the design and your requirements for the website. Then I will show you some design options and you can choose the one you like. After that, I will start building the website based on your chosen design.</p>
+                    </div>
+                    <div class="element">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <h2>Digital Marketing</h2>
+                        <p>I will assist you in promoting your products online and building your brand to attract more customers.</p>
+                        <div class="button"><h4>Read More</h4></div>
+                    </div>
+                    <div class="more">
+                        <i class="fa-regular fa-x"></i>
+                        <p>We live in a digital world, where people use their phones to search for anything they need. That's why digital marketing is the most effective way to reach your potential customers. But you need more than just a website, you need a website that stands out and attracts attention. And that's what I do, I create amazing websites that capture your customers' interest.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--end services-->
+    <!--start protfolio-->
+        <div class="protfolio" id="protfolio">
+            <div class="container">
+                <h1><span>Latest</span>  Projects</h1>
+                <div class="elements">
+                    <div class="element">
+                        <img src="./images/protfolio1.jpg" alt="">
+                        <div class="text">
+                            <h2>Pair</h2>
+                            <p>Pair is an online web store <br> for selling shoes. </p>
+                            <a href="https://yousef-magdy25.github.io/Pair/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <img src="./images/protfolio6.jpg" alt="">
+                        <div class="text">
+                            <h2>Animated</h2>
+                            <p>Animated is a website where I used HTML and CSS only to design it and make some animations. </p>
+                            <a href="https://yousef-magdy25.github.io/Animated/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <img src="./images/protfolio4.jpg" alt="">
+                        <div class="text">
+                            <h2>Kasper</h2>
+                            <p>Kasper is the first website I created using HTML and CSS. </p>
+                            <a href="https://yousef-magdy25.github.io/Kasper/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--end protfolio-->
+    <!--start contact-->
+        <div class="contact" id="contact">
+            <div class="container">
+                <h1><span>Contact</span> Me</h1>
+                <form onsubmit="sendEmail();reset();return false;">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Adress" required>
+                    <input type="text" placeholder="Mobile Number" required>
+                    <input type="text" placeholder="Email Subject" required>
+                    <textarea placeholder="Your Message"></textarea>
+                    <div class="space"></div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    <!--end contact-->
+    <script src="./JS/main.js"></script>
+</body>
+</html>
